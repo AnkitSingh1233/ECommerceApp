@@ -26,6 +26,7 @@ public class BookRegisterServiceImpl  implements BookRegisterService{
 		         book.setAuthor(bookRequestDto.getAuthor());
 		         book.setPublisherName(bookRequestDto.getPublisherName());
 		         book.setPrice(bookRequestDto.getPrice());
+		         book.setTitle(bookRequestDto.getTitle());
 		         return bookRepo.save(book);
 	}
 	@Override

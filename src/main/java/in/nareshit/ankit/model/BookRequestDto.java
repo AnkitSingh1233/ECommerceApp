@@ -15,6 +15,14 @@ public class BookRequestDto {
 	@NotBlank(message = "book cannot blank")
 	@Schema(description = "book", example = "enter the Book")
     private String book;
+	
+
+	@NotBlank(message = "title cannot blank")
+	@Schema(description = "title", example = "enter the title")
+	private String title;
+	
+	
+	
 
 	@NotBlank(message = "author cannot blank")
 	@Schema(description = "author", example = "enter the author")

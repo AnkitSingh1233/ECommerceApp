@@ -25,6 +25,8 @@ public class UserRegister {
 	 private String lastName;
 	@Column(name="email")
 	 private String email;
+	@Column(name = "prime",columnDefinition = "TINYINT(1)")
+	private Boolean prime;
 	@Column(name="password")
 	 private String password;
 	@Column(name="contactId")

@@ -26,6 +26,9 @@ public class Book {
 		@Column(name = "author")
 		private String author;
 		
+		@Column(name = "title")
+		private String title;
+		
 		@Column(name="price")
 		private int price;
 		
